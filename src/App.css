@@ -1,0 +1,11 @@
+a {
+  text-decoration: none;  
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  padding: 20px 0;
+}

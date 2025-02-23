@@ -1,46 +1,14 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 소개
+### 기술 스택
+  - React, Typescript
+  - Recharts: 경량 차트 라이브러리로, 데이터를 직관적으로 시각화하고 커스터마이징에 적합
+  - Material UI: 일관적인 디자인의 다양한 컴포넌트로 UI 구현
+  - TanStack Table, TanStack Virtual
+    - 대용량 데이터를 효율적으로 처리하기 위해 표에 가상 스크롤을 적용 
+  - TanStack Query
+    - 데이터 캐싱을 통해 네트워크 요청 최소화
+  - react-intersection-observer: 페이지 아랫쪽에 위치한 컴포넌트는 화면에 보일 때 렌더링 -> 초기 로딩 속도 개선
+### 주요 기능
+  - 연간/월간 리포트 조회
+     - 캠페인 별 성과, 앱 별 성과, 연간 성과를 차트와 표로 표현
+     - 특정 연도 및 월을 선택해 데이터 조회 가능
