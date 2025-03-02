@@ -1,4 +1,5 @@
 ## 소개
+배포: [https://data-visulization.vercel.app/](https://data-visulization.vercel.app/)
 ### 기술 스택
   - React, Typescript
   - Recharts: 경량 차트 라이브러리로, 데이터를 직관적으로 시각화하고 커스터마이징에 적합
